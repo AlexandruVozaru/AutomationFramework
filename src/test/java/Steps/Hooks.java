@@ -16,7 +16,7 @@ public class Hooks extends BaseUtil {
     @Before
     public void InitializeTheTest() {
         //  base.stepInfo="Chrome";
-        System.setProperty("webdriver.chrome.driver", "/Users/alexandru.vozaru/Desktop/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/alexandru.vozaru/Desktop/chromedriver");
         base.Driver = new ChromeDriver();
 
     }
